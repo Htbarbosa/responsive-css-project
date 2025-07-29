@@ -32,6 +32,7 @@ img {
     height: 150px;
     object-fit: cover;
     display: block;
+    box-sizing: border-box;
 }
 
 .label {
@@ -100,7 +101,7 @@ figcaption {
     }
     
     img {
-        border-radius: 35px;
+        border-radius: 0;
         height: 200px;
     }
     
